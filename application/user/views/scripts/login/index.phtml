@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Login</title>
+</head>
+<body>
+<?php
+if (! empty ( $this->messages )) {
+	?>
+<pre id="messages">
+<?
+	foreach ( $this->messages as $message ) {
+		echo $message . "\n";
+	}
+	?>
+</pre>
+<?php
+}
+?>
+<?=
+
+$this->loginForm?>
+</body>
+</html>

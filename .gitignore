@@ -1,0 +1,4 @@
+#Ignore eclipse project files
+.project
+.cache
+.settings
